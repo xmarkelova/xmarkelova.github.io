@@ -1323,6 +1323,65 @@ p {
   height: auto;
 }
 
+.menu {
+  cursor: pointer;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.menu-global {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  border-top: 2px solid #757476;
+  width: 100%;
+  -webkit-transition: 0.55s;
+  -o-transition: 0.55s;
+  transition: 0.55s;
+}
+
+.menu-top {
+  top: 5px;
+}
+
+.menu-middle {
+  top: 14px;
+}
+
+.menu-bottom {
+  top: 22px;
+}
+
+.menu-top-click {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  top: 14px;
+  -webkit-transform: rotate(50deg);
+      -ms-transform: rotate(50deg);
+          transform: rotate(50deg);
+  -webkit-transition: 0.55s 0.5s;
+  -o-transition: 0.55s 0.5s;
+  transition: 0.55s 0.5s;
+}
+
+.menu-middle-click {
+  opacity: 0;
+}
+
+.menu-bottom-click {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  top: 14px;
+  -webkit-transform: rotate(-410deg);
+      -ms-transform: rotate(-410deg);
+          transform: rotate(-410deg);
+  -webkit-transition: 0.55s 0.5s;
+  -o-transition: 0.55s 0.5s;
+  transition: 0.55s 0.5s;
+}
+
 /* Helpers */
 
 .text-center {
