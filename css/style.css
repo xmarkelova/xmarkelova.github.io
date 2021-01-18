@@ -1358,9 +1358,9 @@ p {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   top: 14px;
-  -webkit-transform: rotate(50deg);
-      -ms-transform: rotate(50deg);
-          transform: rotate(50deg);
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   -webkit-transition: 0.55s 0.5s;
   -o-transition: 0.55s 0.5s;
   transition: 0.55s 0.5s;
@@ -1374,9 +1374,9 @@ p {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   top: 14px;
-  -webkit-transform: rotate(-410deg);
-      -ms-transform: rotate(-410deg);
-          transform: rotate(-410deg);
+  -webkit-transform: rotate(-405deg);
+      -ms-transform: rotate(-405deg);
+          transform: rotate(-405deg);
   -webkit-transition: 0.55s 0.5s;
   -o-transition: 0.55s 0.5s;
   transition: 0.55s 0.5s;
