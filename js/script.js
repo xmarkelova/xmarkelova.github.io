@@ -169,17 +169,11 @@ $(function () {
 
     const navToggle = $("#navToggle");
     const nav = $("#nav");
-    // const navLink = document.querySelectorAll('.nav__link');
     const navigation = document.querySelector('#nav');
-    const menuTop = document.querySelector('.menu-top');
-    const menuMiddle = document.querySelector('.menu-middle');
-    const menuBottom = document.querySelector('.menu-bottom');
+
 
     navToggle.on("click", function (event) {
         event.preventDefault();
-        menuTop.classList.toggle('menu-top-click');
-        menuMiddle.classList.toggle('menu-middle-click');
-        menuBottom.classList.toggle('menu-bottom-click');
 
         nav.toggleClass("show");
 
@@ -190,9 +184,7 @@ $(function () {
         const target = evt.target;
         if (target && target.classList.contains('nav__link')) {
             navigation.classList.remove('show');
-            menuTop.classList.toggle('menu-top-click');
-            menuMiddle.classList.toggle('menu-middle-click');
-            menuBottom.classList.toggle('menu-bottom-click');
+
         }
     });
 
